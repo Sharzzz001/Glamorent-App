@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:elevation="5dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:id="@+id/rellayoutcart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/singlerowbackground"
+        android:padding="15dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/ic_launcher"
+            />
+
+
+        <TextView
+            android:id="@+id/pname"
+            android:layout_width="144dp"
+            android:layout_height="62dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@id/img2"
+            android:text="This is Demo Name"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pprice"
+            android:layout_width="82dp"
+            android:layout_height="33dp"
+            android:layout_marginLeft="60dp"
+
+            android:layout_marginTop="35dp"
+            android:layout_toRightOf="@id/pname"
+            android:gravity="right"
+            android:text="This is Demo Name"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

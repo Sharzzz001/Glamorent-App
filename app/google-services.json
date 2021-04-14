@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "469972605196",
+    "project_id": "lasttryglam",
+    "storage_bucket": "lasttryglam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469972605196:android:3361d947249da7d4e51129",
+        "android_client_info": {
+          "package_name": "sharan.cool.lasttryglam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469972605196-q2cjcd65sv9l0tbonj3l15u4mprctr7b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAdFFQos3qay4egZ2D64ga8K1XMVOJPCE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "469972605196-q2cjcd65sv9l0tbonj3l15u4mprctr7b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
